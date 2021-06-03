@@ -23,6 +23,7 @@
     <meta property="og:image:height" content="250" />
     <meta property="og:image:type" content="image/jpeg" />
     <link rel="icon" type="image/x-icon" href="https://laptrinhcuocsong.com/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./js/script.js">
 </head>
@@ -39,34 +40,34 @@
             </div>
             <div class="list-functions">
                 <ul class="container-functions">
-                    <li>
+                    <li class="active">
                         <a href="">
                             <span>HOME</span>
-                            <span>icon</span>
+                            <span><i class="fas fa-home"></i></span>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <span>FRIEND</span>
-                            <span>icon</span>
+                            <span><i class="fas fa-user-friends"></i></span>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <span>WATCHING</span>
-                            <span>icon</span>
+                            <span><i class="fas fa-tv"></i></span>
                         </a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="">
                             <span>MARKETPLACE</span>
-                            <span>icon</span>
+                            <span><i class="fas fa-door-open"></i></span>
                         </a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="">
                             <span>GROUP</span>
-                            <span>icon</span>
+                            <span><i class="fas fa-users"></i></span>
                         </a>
                     </li>
                 </ul>
@@ -75,35 +76,64 @@
                 <ul class="infor-my-msg-and-notify">
                     <li>
                         <div class="profile">
-                            profile
+                            <a href="">
+                                <span>
+                                    <img src="./img/avt.jpg" alt="can't load image">
+                                </span>
+                                <span class="first-name">
+                                    Nguyễn
+                                </span>
+                            </a>
                         </div>
                     </li>
                     <li>
                         <div class="create">
-                            create
+                            <a href=""><i class="fas fa-plus"></i></a>
                         </div>  
                     </li>
                     <li>
                         <div class="messenger">
-                            messenger
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
                         </div>
                     </li>
                     <li>
                         <div class="notification">
-                            notification
+                            <a href=""><i class="fas fa-bell"></i></a>
                         </div>
                     </li>
                     <li>
                         <div class="account">
-                            account
+                            <a href=""><i class="fas fa-caret-down"></i></a>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="container-body-content">
+        <div class="container-body-content" showData ="group-detail">
+           <div class="container-my-background-images">
+               <div class="my-background-images">
+                <div class="my-cover-image=">
+                    <a class="container-image-cover" href=""><span class="meaning-tag">Show img cover</span></a>
+                    <div class="show-image-data">
+                        <div class= "cover-img">
+                            <img src="img/cover-image.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="my-avatar">
+                    <div class="border-radius-for-avatar">
+                        <div class="show-avatar">
+                            <img src="img/mypicture.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+               </div>
+               <div class="my-description">
 
+               </div>
+           </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

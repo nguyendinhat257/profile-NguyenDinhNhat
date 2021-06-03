@@ -222,12 +222,6 @@ height: 40px;
     height: 100px;
 }
 /* container-body-content */
-.container-body-content {
-    background-color: black;
-}
-.container-my-background-images {
-    height: 467px;
-}
 .container-image-cover {
     display: block;
 
@@ -277,4 +271,56 @@ height: 40px;
     top: 245px;
     left: calc(100vw / 2 - 88px);
     
+}
+.my-cover-image {
+    background-image: linear-gradient( transparent, #242526);
+}
+.my-background-images {
+    background-image: url("../img/background-cover.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.my-description {
+    background-color: #242526;
+    
+}
+.my-description {
+    padding-top: 25px;
+    text-align: center;
+}
+.my-description .my-name {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color : rgb(240, 240, 240);
+    
+}
+.my-description .my-name span {
+    font-weight: normal;
+    color : rgb(190, 190, 190);
+}
+.my-description .description-detail {
+    
+    font-size: 18px;
+    color : rgb(190, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.name-and-description  {
+    padding-bottom: 20px;
+    width: 876px;
+    margin: 0px auto;
+    border-bottom: 1px solid #565758;
+}
+.container-list-menu {
+    background-color: #242526;
+}
+.list-my-menu {
+    width: 908px;
+    height: 60px;
+    margin: 0px auto;
+}
+.comprise-menu {
+    height: 100%;
+    padding: 0px 10px;
 }
